@@ -1,0 +1,33 @@
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.Write("Enter the value_1 : ");
+        string priceAsnumber_1 = Console.ReadLine();
+        Console.Write("Enter the value_2 : ");
+        string priceAsnumber_2 = Console.ReadLine();
+        Console.Write("Saisissez la valeur : ");
+        string message = Console.ReadLine();
+
+   
+        int val_1 = Convert.ToInt32(priceAsnumber_1);
+        int val_2 = Convert.ToInt32(priceAsnumber_2); 				        int value = Convert.ToInt32(message);
+
+        int min = Math.Min(val_1, val_2);
+        int max = Math.Max(val_1, val_2);
+
+
+        if (value < min)
+        {
+            Console.WriteLine($"La valeur saisie {value} est inférieure à {min} qui est la valeur Minimum");
+        }
+        else if (value > max)
+        {
+            Console.WriteLine($"La valeur saisie {value} est supérieure à {max} qui est le maximum");
+        }
+    }
+}
+
+
