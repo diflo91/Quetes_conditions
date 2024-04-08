@@ -13,7 +13,8 @@ class Program
 
    
         int val_1 = Convert.ToInt32(priceAsnumber_1);
-        int val_2 = Convert.ToInt32(priceAsnumber_2); 				        int value = Convert.ToInt32(message);
+        int val_2 = Convert.ToInt32(priceAsnumber_2); 				        
+        int value = Convert.ToInt32(message);
 
         int min = Math.Min(val_1, val_2);
         int max = Math.Max(val_1, val_2);
