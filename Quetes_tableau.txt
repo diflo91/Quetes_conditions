@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        //Declaration des tableaux
+        int[] Tableau_1 = { 1, 2, 3, 4 };
+        int[] Tableau_2 = { 5, 6, 7, 8 };
+        int[] Tableau_3 = { Tableau_1[0], Tableau_1[1], Tableau_1[2], Tableau_1[3], Tableau_2[0], Tableau_2[1], Tableau_2[2], Tableau_2[3] };
+
+        Console.WriteLine("Tableau_3 :");
+        foreach (int i9 in Tableau_3)
+
+        {
+            Console.WriteLine(i9);
+        }
+            ;
+
+    }
+}
